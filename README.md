@@ -1,30 +1,19 @@
-Berikut ini sedikit polesan minor dari Prof biar makin rapi dari segi markdown formatting, tapi inti & gayanya tetap kamu banget:
+🔐 MnemonicForge — Convert Mnemonic to Private Key
 
-# 🔐 Mnemonic to Private Key Converter
-
-Project ini digunakan untuk mengubah **Mnemonic** menjadi **Private Key**, menggunakan standar **BIP39** dan **BIP44**.
-
+    Alat konversi dari Mnemonic Phrase ke Private Key, berbasis standar BIP39 & BIP44.
 ---
+🚀 Cara Menggunakan
+1. Install dependencies
 
-## 🚀 Cara Jalankan
-
-1. Pastikan kamu sudah install dependensi:
-
-```bash
 pip install -r requirements.txt
-
 ---
-   
-2. Jalankan program:
+2. Jalankan program
 
-
-python3 main.py
-
+python3 mnemonicforge.py
 ---
-
 🧪 Contoh
 
-Mnemonic:
+Input (Mnemonic):
 
 legal winner thank year wave sausage worth useful legal winner thank yellow
 
@@ -33,39 +22,41 @@ Output:
 Private Key: 0x...
 Address    : 0x...
 
+⚠️ Catatan Penting
+
+    ❗ Hanya untuk edukasi
+
+    🚫 JANGAN gunakan mnemonic asli atau pribadi
+
+    💡 Cocok untuk pembelajaran wallet crypto, blockchain, dan ethical hacking
 ---
+☕ Dukung Karya Tengah Malam
 
-⚠️ Note
+    Satu cangkir kopi = Satu baris kode yang lebih manusiawi 😄
 
-Gunakan hanya untuk edukasi.
-JANGAN gunakan mnemonic pribadi!
-☕ Dukung aku agar tetap waras menulis script tengah malam...
-
-👉 Buy Me a Coffee via PayPal 👈
-Support with 💸 so I can buy ☕ and keep being 🔥!
-📫 Let’s Connect Like Hackers
+Buy Me a Coffee
+🧠 Siapa di balik proyek ini?
 
     🧙 GitHub: kongali1720
 
     💌 Email: kongali1720@gmail.com
 
-    🕵️‍♂️ Site: Coming soon — stay curious...
+    🌍 Website: Coming soon...
 ---
-💻 INITIATING HUMANITY MODE...
+❤️ Humanity Mode: ON
 
-    🎯 Target Locked: Anak-anak Pejuang Down Syndrome
-    🩺 Status: Butuh Dukungan
-    ❤️ Response: Buka Hati + Klik Link = Satu Senyum Baru
+🎯 Target Kebaikan: Anak-anak Pejuang Down Syndrome
+🩺 Status: Butuh Dukungan
+💖 Respon: Klik, Bantu, Sebarkan
 
-🧬 Mereka bukan berbeda — mereka dilahirkan untuk mengajarkan dunia tentang cinta yang murni dan kesabaran yang luar biasa.
+    Mereka tidak berbeda.
+    Mereka hadir untuk mengajarkan kita tentang cinta dan kesabaran murni.
+    Setiap dukunganmu adalah satu senyum baru bagi mereka.
 
-👣 Setiap langkah kecil mereka = Keajaiban besar.
+Karena jadi hacker hati itu bukan cuma soal kode...
 
-⚡ Bantu mereka melangkah lebih jauh, dengan caramu sendiri.
-<p align="center"> <a href="https://mydonation4ds.github.io/" target="_blank"> <img src="https://img.shields.io/badge/SUPPORT--NOW-%F0%9F%A7%A1-orange?style=for-the-badge&logo=heart" /> </a> </p>
+Tapi juga soal peduli.
 
-    "Karena jadi hacker hati bukan cuma soal kode... tapi juga soal peduli." 🖤
-
-    "Ngoding boleh sambil senyum, asal jangan inject SQL sambil ngambek!" 😜
+    Ngoding boleh sambil senyum, asal jangan inject SQL sambil ngambek! 😜
 
 ---
