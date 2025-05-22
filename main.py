@@ -1,24 +1,22 @@
-from mnemonic import Mnemonic
-from bip44 import Wallet
+#!/usr/bin/env python3
 
-# Masukkan mnemonic-mu di sini
-mnemonic_phrase = "legal winner thank year wave sausage worth useful legal winner thank yellow"
+from eth_account import Account
 
-# Gunakan English wordlist
-mnemo = Mnemonic("english")
+# Aktifkan fitur Mnemonic HD Wallet yang belum stabil
+Account.enable_unaudited_hdwallet_features()
 
-if not mnemo.check(mnemonic_phrase):
-    print("Mnemonic tidak valid!")
-else:
-    # Generate seed dari mnemonic
-    seed = mnemo.to_seed(mnemonic_phrase)
+def main():
+    print("=== Mnemonic to Private Key Converter ===\n")
+    words = input("Enter your mnemonic: ").strip()
+    try:
+        acct = Account.from_mnemonic(words)
+    except Exception as e:
+        print(f"Error: {e}")
+        return
 
-    # Buat wallet dari seed
-    wallet = Wallet(seed)
+    print("\nOutput:")
+    print(f"Private Key: {acct.key.hex()}")
+    print(f"Address    : {acct.address}")
 
-    # Dapatkan private key Ethereum dari path m/44'/60'/0'/0/0
-    private_key = wallet.get_private_key(account=0)
-    address = wallet.get_address(account=0)
-
-    print("Private Key:", private_key)
-    print("Address    :", address)
+if __name__ == "__main__":
+    main()
