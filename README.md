@@ -50,7 +50,7 @@ Support with 💸 so I can buy ☕ and keep being 🔥!
     💌 Email: kongali1720@gmail.com
 
     🕵️‍♂️ Site: Coming soon — stay curious...
-
+---
 💻 INITIATING HUMANITY MODE...
 
     🎯 Target Locked: Anak-anak Pejuang Down Syndrome
